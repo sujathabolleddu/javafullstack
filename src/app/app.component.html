@@ -1,6 +1,7 @@
 <div>
-  <nav class = 'navbar navbar-expand navbar-light bg-light'>   
-  <ul class = 'nav nav-pills'>
+  <div style="background-color: blueviolet;">
+  <nav class = 'navbar navbar-expand navbar-light bg-light' >   
+  <ul class = 'nav nav-pills' >
     <li><a class = 'nav-link' [routerLink] = "['/java']">Java</a></li>
     <li><a class = 'nav-link' routerLink = "/bootstrap">OOPS</a></li>
     <li><a class = 'nav-link' routerLink = "/bootstrap">Collections</a></li>
@@ -53,7 +54,11 @@
     <li><a class = 'nav-link' routerLink = "/bootstrap">Unit Testing</a></li>
     <li><a class = 'nav-link' routerLink = "/bootstrap">Maven</a></li>
     <li><a class = 'nav-link' routerLink = "/bootstrap">Dockers</a></li>
+    <li><a class = 'nav-link' routerLink = "/interview">Interview</a></li>
   </ul>
   </nav>
+</div>
+  <div style="background-color:lightsteelblue">
   <router-outlet></router-outlet>
+</div>
 </div>

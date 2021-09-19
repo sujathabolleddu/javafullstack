@@ -29,6 +29,7 @@ import { JavascriptComponent } from './javascript/javascript.component';
 import { CssComponent } from './css/css.component';
 import { BootstrapComponent } from './bootstrap/bootstrap.component';
 import { JavaioComponent } from './javaio/javaio.component';
+import { InterviewComponent } from './interview/interview.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { JavaioComponent } from './javaio/javaio.component';
     JavascriptComponent,
     CssComponent,
     BootstrapComponent,
-    JavaioComponent
+    JavaioComponent,
+    InterviewComponent
   ],
   imports: [
     BrowserModule,
