@@ -1,0 +1,133 @@
+<a href="currentPage#sectionA">Section A</a>
+<a href="currentPage#sectionB">Section B</a>
+<a href="currentPage#sectionC">Section C</a>
+
+<pre>
+<b id = sectionA>Linting</b>
+Lint
+Pointing out and fixing potential probs in code
+Coding style changes
+Missing semicolons
+Double vs single quotes
+Long lines
+ESlint
+Prettier
+Automatically fixes
+
+<b id = "sectionA">Routing</b>
+
+Clickon a link
+<!--[routerLink] = [“/path”]-->
+Router configuration has path define
+<!--{path: ‘path’, component: ‘component’}-->
+Loads component template in primary routeroutlet
+<!--<router-outlet>>/router-outlet>-->
+
+    Router outlet gets triggered when Url is changed
+Checks for matching path – reprocess redirects
+Process guards
+Resolve data
+Activates components
+Display templates
+Changing basepath during deployment
+Ng build –base-href /APM/
+
+RouterModule
+Directive: RouterLink, RouterLinkActive, RouterOutlet
+
+InMemoryWebApiModule.forRoot() – simulate calls to server
+<!--{path: ‘’, redirectTo : ‘welcome’, pathMatch: ‘full’} -->
+Redirects are not chained
+
+
+<!--RouterModule.forRoot([
+{path: “”, component: “”}
+])-->
+Use forRoot  only once in application
+Use forChild for any feature routes
+url segment in deeplinking
+Deeplinking – bookmark url and navigate to template of comp
+<!--[routerLink]: “[‘/path]” – first is parent or root url segment, all others are route parameters or additnl url segements
+routerOutlet
+
+URL’s
+HTML5 based
+Hash based - /#/path – url fragment – no need for url reqriting
+
+Resolved client side 
+
+Levergaes HTML5 history pushstate – without making server calls
+Configure Url rewriting to prevent 404 after server call
+Feature Routing
+
+RouterModule.forChild([ define paths])
+
+Router outlet will be same
+Links will refer to the path 
+
+Actiavting route with code
+We need Router service  - inject service in constructor
+This.router.navigate([‘/path’])
+navigateByUrl – to clear all the url segments
+Have all feature modules imported in appmodule to navigate across feature routes
+Root/ parent Routes are ordered after feature routes in imports array
+Routing Modules
+New module forRoot
+Export RouterModule,
+
+Router 
+ActivatedRoute to read parameters
+Route.snapshot.paramMap
+
+Use snapshot when parameters wont change
+If parameters change use ActivatedRoute to subscribe 
+Query Parameters -->
+<!--[QueryParams] = “{filterBy = listFileter, showImage = Showimg}” beow routerLink and in router.navigate
+{
+queryParams: {}
+}-->
+
+To preserve queryParamsHandling = “preserve or merge”
+Prefetching data
+Route’s data property for static data
+Route resolver
+Page is not displayed until data is fetched
+
+Communication
+
+Communication with template
+Viewchild and viewchildren
+With child comp
+With parent comp
+Through service
+Through state management service
+Through service notifications
+Using router
+Component to template
+Interpoation <!--{{}}-->
+Property binding img [style.width.px] = ‘image.width’
+
+Template -component
+Two way binding – long way
+Getter and setter
+Viewchild
+
+<!--Event binding
+(click) = myFunc()
+Two way binding
+[(ngModel)] = ‘listFilter’ listfilter prop in comp
+Safenavigation operator ?  for null
+Templatereferencevariable – use in ngAfterViewInit
+
+@ViewChild(‘templateRefVar’) newVar : ElementRef(type returned)
+
+If(this.newVar.nativeElement) console.log()
+Securitythreat
+Multiple elements viewCHildren
+@ViewChildren(‘ref’) newRef : QueryList--><!--<ElementRef>-->
+
+
+<b>Http</b>
+
+Most front-end applications need to communicate with a server over the HTTP protocol, in order to download or upload data and access other back-end services. Angular provides a client HTTP API for Angular applications, the HttpClient service class in @angular/common/http.
+</pre>>
