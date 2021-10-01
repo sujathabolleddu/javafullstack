@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { JavaComponent } from './java/java.component';
 import { MicroservicesComponent } from './microservices/microservices.component';
@@ -30,6 +29,7 @@ import { CssComponent } from './css/css.component';
 import { BootstrapComponent } from './bootstrap/bootstrap.component';
 import { JavaioComponent } from './javaio/javaio.component';
 import { InterviewComponent } from './interview/interview.component';
+import { CollectionsComponent } from './collections/collections.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +58,8 @@ import { InterviewComponent } from './interview/interview.component';
     CssComponent,
     BootstrapComponent,
     JavaioComponent,
-    InterviewComponent
+    InterviewComponent,
+    CollectionsComponent
   ],
   imports: [
     BrowserModule,
@@ -93,6 +94,7 @@ import { InterviewComponent } from './interview/interview.component';
       {path:'javascript', component: JavascriptComponent},
       {path:'css', component: CssComponent},
       {path:'bootstrap', component: BootstrapComponent},
+      {path:'collections', component: CollectionsComponent},
       {path:'', component: WelcomeComponent}
     ])
   ],
