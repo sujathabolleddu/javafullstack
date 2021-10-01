@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\sujatha\newApp\fullstackdeveloperjava\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! D:\SUJATHA\GIT\javafullstack\src\polyfills.ts */"hN/g");
 
 
 /***/ }),
