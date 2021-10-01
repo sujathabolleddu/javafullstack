@@ -1,21 +1,13 @@
-<div>
-  <div style="background-color: blueviolet;">
-  <nav class = 'navbar navbar-expand navbar-light bg-light' >   
+<div >
+  <header class = "row" >
+   <nav class = 'navbar navbar-expand navbar-light fixed-top bg-dark'>   
   <ul class = 'nav nav-pills' >
-    <li><a class = 'nav-link' [routerLink] = "['/java']">Java</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">OOPS</a></li>
-    <li><a class = 'nav-link' routerLink = "/collections">Collections</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Algorithms</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Exception Handling</a></li>
-    
-    <li><a class = 'nav-link' routerLink = "/bootstrap">JDBC</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Servlets</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Reflection</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">RegularExpressions</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Generics</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">JVM</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Serialization</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Java XML</a></li>
+    <li><a class = 'nav-link bg-dark'  [routerLink] = "['/java']">Java</a></li>
+   
+    <li><a class = 'nav-link' routerLink = "/algorithms">Algorithms</a></li>    
+    <li><a class = 'nav-link' routerLink = "/jdbc">JDBC</a></li>
+    <li><a class = 'nav-link' routerLink = "/jvm">JVM</a></li>
+    <li><a class = 'nav-link' routerLink = "/javaxml">Java XML</a></li>
     <li><a class = 'nav-link' routerLink = "/angular">Angular</a></li>
     <li><a class = 'nav-link' routerLink = "/html5">HTML5</a></li>
     <li><a class = 'nav-link' routerLink = "/javascript">Javascript</a></li>
@@ -30,7 +22,6 @@
     <li><a class = 'nav-link' routerLink = "/apitesting">Api Testing</a></li>
     <li><a class = 'nav-link' routerLink = "/solid">SOLID</a></li>
     <li><a class = 'nav-link' routerLink = "/codereview">Code Review</a></li>
-    <li><a class = 'nav-link' routerLink = "designpatterns">Design Patterns</a></li>
     <li><a class = 'nav-link' routerLink = "/rest">REST</a></li>
     <li><a class = 'nav-link' routerLink = "/json">JSON</a></li>
     <li><a class = 'nav-link' routerLink = "/testing">Testing</a></li>
@@ -38,27 +29,29 @@
     <li><a class = 'nav-link' routerLink = "/kafka">Kafka</a></li>
     <li><a class = 'nav-link' routerLink = "/security">Security</a></li>   
     
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Spring Core</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Spring Data</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Spring MVC</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Spring AOP</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Spring Integration</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Spring Testing</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Spring JPA</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Spring Cloud</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Spring Security</a></li>
+    <li><a class = 'nav-link' routerLink = "/springcore">Spring Core</a></li>
+    <li><a class = 'nav-link' routerLink = "/springdata">Spring Data</a></li>
+    <li><a class = 'nav-link' routerLink = "/springmvc">Spring MVC</a></li>
+    <li><a class = 'nav-link' routerLink = "/springaop">Spring AOP</a></li>
+    <li><a class = 'nav-link' routerLink = "/springintegration">Spring Integration</a></li>
+    <li><a class = 'nav-link' routerLink = "/springtesting">Spring Testing</a></li>
+    <li><a class = 'nav-link' routerLink = "/springjpa">Spring JPA</a></li>
+    <li><a class = 'nav-link' routerLink = "/springcloud">Spring Cloud</a></li>
+    <li><a class = 'nav-link' routerLink = "/springsecurity">Spring Security</a></li>
 
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Hibernate</a></li>
+    <li><a class = 'nav-link' routerLink = "/hibernate">Hibernate</a></li>
     
-    <li><a class = 'nav-link' routerLink = "/bootstrap">SQL</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Unit Testing</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Maven</a></li>
-    <li><a class = 'nav-link' routerLink = "/bootstrap">Dockers</a></li>
+    <li><a class = 'nav-link' routerLink = "/sql">SQL</a></li>
+    <li><a class = 'nav-link' routerLink = "/unittesting">Unit Testing</a></li>
+    <li><a class = 'nav-link' routerLink = "/maven">Maven</a></li>
+    <li><a class = 'nav-link' routerLink = "/dockers">Dockers</a></li>
     <li><a class = 'nav-link' routerLink = "/interview">Interview</a></li>
   </ul>
   </nav>
-</div>
-  <div style="background-color:lightsteelblue">
+</header>
+<main role="main" >
+  <div style="background-color:lightsteelblue; padding-top:15%;scroll-behavior: auto;">
   <router-outlet></router-outlet>
 </div>
+</main>
 </div>

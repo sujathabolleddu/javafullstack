@@ -30,6 +30,31 @@ import { BootstrapComponent } from './bootstrap/bootstrap.component';
 import { JavaioComponent } from './javaio/javaio.component';
 import { InterviewComponent } from './interview/interview.component';
 import { CollectionsComponent } from './collections/collections.component';
+import { OopsComponent } from './oops/oops.component';
+import { ExceptionhandlingComponent } from './exceptionhandling/exceptionhandling.component';
+import { ServletsComponent } from './servlets/servlets.component';
+import { ReflectionComponent } from './reflection/reflection.component';
+import { RegexComponent } from './regex/regex.component';
+import { GenericsComponent } from './generics/generics.component';
+import { AlgorithmsComponent } from './algorithms/algorithms.component';
+import { JdbcComponent } from './jdbc/jdbc.component';
+import { JvmComponent } from './jvm/jvm.component';
+import { SerializationComponent } from './serialization/serialization.component';
+import { JavaxmlComponent } from './javaxml/javaxml.component';
+import { SpringcoreComponent } from './springcore/springcore.component';
+import { SpringdataComponent } from './springdata/springdata.component';
+import { SpringmvcComponent } from './springmvc/springmvc.component';
+import { SpringaopComponent } from './springaop/springaop.component';
+import { SpringintegrationComponent } from './springintegration/springintegration.component';
+import { SpringtestingComponent } from './springtesting/springtesting.component';
+import { SpringjpaComponent } from './springjpa/springjpa.component';
+import { SpringcloudComponent } from './springcloud/springcloud.component';
+import { SpringsecurityComponent } from './springsecurity/springsecurity.component';
+import { HibernateComponent } from './hibernate/hibernate.component';
+import { SqlComponent } from './sql/sql.component';
+import { UnittestingComponent } from './unittesting/unittesting.component';
+import { MavenComponent } from './maven/maven.component';
+import { DockersComponent } from './dockers/dockers.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +84,32 @@ import { CollectionsComponent } from './collections/collections.component';
     BootstrapComponent,
     JavaioComponent,
     InterviewComponent,
-    CollectionsComponent
+    CollectionsComponent,
+    OopsComponent,
+    ExceptionhandlingComponent,
+    ServletsComponent,
+    ReflectionComponent,
+    RegexComponent,
+    GenericsComponent,
+    AlgorithmsComponent,
+    JdbcComponent,
+    JvmComponent,
+    SerializationComponent,
+    JavaxmlComponent,
+    SpringcoreComponent,
+    SpringdataComponent,
+    SpringmvcComponent,
+    SpringaopComponent,
+    SpringintegrationComponent,
+    SpringtestingComponent,
+    SpringjpaComponent,
+    SpringcloudComponent,
+    SpringsecurityComponent,
+    HibernateComponent,
+    SqlComponent,
+    UnittestingComponent,
+    MavenComponent,
+    DockersComponent
   ],
   imports: [
     BrowserModule,
@@ -69,16 +119,42 @@ import { CollectionsComponent } from './collections/collections.component';
       children: [
         {path:'designpatterns', component: DesignpatternsComponent},
         {path:'multithreading', component: MultithreadingComponent},
-        {path: 'javaio', component:JavaioComponent}
+        {path: 'javaio', component:JavaioComponent},
+        {path: 'oops', component:OopsComponent},
+        {path:'collections', component: CollectionsComponent},
+        {path:'exceptionhandling', component: ExceptionhandlingComponent},
+        {path:'servlets', component: ServletsComponent},
+        {path:'reflection', component: ReflectionComponent},
+        {path:'regex', component: RegexComponent},
+        {path:'generics', component: GenericsComponent},
+        {path:'serialization', component: SerializationComponent},
       ]
+      
     },
+    {path: 'jvm', component: JvmComponent},
+    {path: 'javaxml', component: JavaxmlComponent},
       {path: 'microservices', component: MicroservicesComponent},
+      {path: 'springcore', component: SpringcoreComponent},
+      {path: 'springdata', component: SpringdataComponent},
+      {path: 'springmvc', component: SpringmvcComponent},
+      {path: 'springaop', component: SpringaopComponent},
+      {path: 'springintegration', component: SpringintegrationComponent},
+      {path: 'springtesting', component: SpringtestingComponent},
+      {path: 'springjpa', component: SpringjpaComponent},
+      {path: 'springsecurity', component: SpringsecurityComponent},
+      {path: 'springcloud', component: SpringcloudComponent},
+      {path: 'algorithms', component: AlgorithmsComponent},
+      {path: 'unittesting', component: UnittestingComponent},
+      {path: 'sql', component: SqlComponent},
+      {path: 'jdbc', component: JdbcComponent},
+      {path: 'hibernate', component: HibernateComponent},
       {path:'javalogging', component: JavaloggingComponent},
       {path:'aws', component: AwsComponent},
       {path:'gitlab', component: GitlabComponent},
       {path:'veracode', component: VeracodeComponent},
       {path:'sonarqube', component: SonarqubeComponent},
       {path:'apitesting', component: ApitestingComponent},
+      {path:'designpatterns', component: DesignpatternsComponent},
       {path:'solid', component: SolidComponent},
       {path:'codereview', component: CodereviewComponent},
       {path:'multithreading', component: MultithreadingComponent},
@@ -90,11 +166,14 @@ import { CollectionsComponent } from './collections/collections.component';
       {path:'security', component: SecurityComponent},
       
       {path:'angular', component: AngularComponent},
+      {path:'maven', component: MavenComponent},
+      {path:'dockers', component: DockersComponent},
+      {path:'interview', component: InterviewComponent},
       {path:'html5', component: Html5Component},
       {path:'javascript', component: JavascriptComponent},
       {path:'css', component: CssComponent},
       {path:'bootstrap', component: BootstrapComponent},
-      {path:'collections', component: CollectionsComponent},
+      
       {path:'', component: WelcomeComponent}
     ])
   ],
