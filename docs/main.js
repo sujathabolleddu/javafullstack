@@ -39,6 +39,33 @@ InterviewComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
 
 /***/ }),
 
+/***/ "2/Wp":
+/*!**************************************************!*\
+  !*** ./src/app/hibernate/hibernate.component.ts ***!
+  \**************************************************/
+/*! exports provided: HibernateComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HibernateComponent", function() { return HibernateComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class HibernateComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+HibernateComponent.ɵfac = function HibernateComponent_Factory(t) { return new (t || HibernateComponent)(); };
+HibernateComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HibernateComponent, selectors: [["app-hibernate"]], decls: 2, vars: 0, template: function HibernateComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "hibernate works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJoaWJlcm5hdGUuY29tcG9uZW50LmNzcyJ9 */"] });
+
+
+/***/ }),
+
 /***/ "2jrR":
 /*!****************************************************!*\
   !*** ./src/app/javascript/javascript.component.ts ***!
@@ -185,6 +212,33 @@ ApitestingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
 
 /***/ }),
 
+/***/ "AxRl":
+/*!******************************************************!*\
+  !*** ./src/app/unittesting/unittesting.component.ts ***!
+  \******************************************************/
+/*! exports provided: UnittestingComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UnittestingComponent", function() { return UnittestingComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class UnittestingComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+UnittestingComponent.ɵfac = function UnittestingComponent_Factory(t) { return new (t || UnittestingComponent)(); };
+UnittestingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: UnittestingComponent, selectors: [["app-unittesting"]], decls: 2, vars: 0, template: function UnittestingComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "unittesting works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ1bml0dGVzdGluZy5jb21wb25lbnQuY3NzIn0= */"] });
+
+
+/***/ }),
+
 /***/ "AytR":
 /*!*****************************************!*\
   !*** ./src/environments/environment.ts ***!
@@ -213,6 +267,60 @@ const environment = {
 
 /***/ }),
 
+/***/ "BiH+":
+/*!************************************************************!*\
+  !*** ./src/app/springsecurity/springsecurity.component.ts ***!
+  \************************************************************/
+/*! exports provided: SpringsecurityComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SpringsecurityComponent", function() { return SpringsecurityComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class SpringsecurityComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+SpringsecurityComponent.ɵfac = function SpringsecurityComponent_Factory(t) { return new (t || SpringsecurityComponent)(); };
+SpringsecurityComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SpringsecurityComponent, selectors: [["app-springsecurity"]], decls: 2, vars: 0, template: function SpringsecurityComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "springsecurity works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcHJpbmdzZWN1cml0eS5jb21wb25lbnQuY3NzIn0= */"] });
+
+
+/***/ }),
+
+/***/ "D84f":
+/*!**************************************************!*\
+  !*** ./src/app/springjpa/springjpa.component.ts ***!
+  \**************************************************/
+/*! exports provided: SpringjpaComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SpringjpaComponent", function() { return SpringjpaComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class SpringjpaComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+SpringjpaComponent.ɵfac = function SpringjpaComponent_Factory(t) { return new (t || SpringjpaComponent)(); };
+SpringjpaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SpringjpaComponent, selectors: [["app-springjpa"]], decls: 2, vars: 0, template: function SpringjpaComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "springjpa works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcHJpbmdqcGEuY29tcG9uZW50LmNzcyJ9 */"] });
+
+
+/***/ }),
+
 /***/ "DadU":
 /*!******************************************************!*\
   !*** ./src/app/javalogging/javalogging.component.ts ***!
@@ -236,6 +344,60 @@ JavaloggingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Java Logging\n    Components\n    \u2022\tLogger - object responsible for capturing log records\n    \u2022\tLogging Handlers or Appender\n    \u2022\tLogging Formatters or Layouts\n    Types of Handler \u2013 custom by extending Handler class\n    \u2022\tStreamHandler \u2013 to output stream\n    \u2022\tConsoleHandler \u2013 console\n    \u2022\tFileHandler \u2013 file in xml format\n    \u2022\tSocketHandler \u2013 remote TCP ports\n    \u2022\tMemoryHandler \u2013 in memory\n    Formatters \u2013 custome by extending Formatter\n    \u2022\tSimpleFormatter \u2013 (console )text\n    \u2022\tXMLFormatter \u2013 (file)  xml\n    Logging levels\n    \u2022\tNine levels , seven standard , two special. Higher values \u2013 high prioirities\n    \u2022\tFINEST - 300\n    \u2022\tFINER - 400\n    \u2022\tFINE - 500\n    \u2022\tConfig - 700\n    \u2022\tINFO \u2013 800\n    \u2022\tWARNING \u2013 900\n    \u2022\tSEVERE \u2013 1000\n    \u2022\tOFF \u2013 Integer.MAX_VALUE \u2013 turns off\n    \u2022\tALL \u2013 Integer.MIN_VALUE \u2013 captures everything\n    Logger.setLevel(Logger.INFO);\n    Logger.log(Level.INFO, \u201Cmessage\u201D);\n    Logger.INFO(\u201Cmessage\u201D)\n    Filter\n    There can be an optional filter, where LogRecord is its parameter to isLoggable, \n    LOGGER.setFilter(new FilterExample()); - set on a class\n    Override  public boolean isLoggable(LogRecord record) to filter messages\n    Record has getMessage method\n    Logging frameworks\n    \u2022\tLog4J\n    \u2022\tLog4J2\n    \u2022\tSLF4J \u2013 Simple Logging Fa\u00E7ade for Java\n    \u2022\tLogback\n    \u2022\ttinyLog\n    \u2022\tPreferred , Logback is default in Spring Boot\n    \u2022\tLog4J is old ,go for Log4J2\n    \u2022\tLogback uses SLF4j\n    \u2022\t\n    \u2022\tlogback-core, slf4j-api\n    \u2022\tlogback-classic dependency for runtime\n    \u2022\tprivate static final Logger  logger = LoggerFactory.logger(classname)\n    \u2022\tconfiguration file logback.xml  in classpath\n    ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJqYXZhbG9nZ2luZy5jb21wb25lbnQuY3NzIn0= */"] });
+
+
+/***/ }),
+
+/***/ "Fgd+":
+/*!****************************************************!*\
+  !*** ./src/app/reflection/reflection.component.ts ***!
+  \****************************************************/
+/*! exports provided: ReflectionComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReflectionComponent", function() { return ReflectionComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class ReflectionComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+ReflectionComponent.ɵfac = function ReflectionComponent_Factory(t) { return new (t || ReflectionComponent)(); };
+ReflectionComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ReflectionComponent, selectors: [["app-reflection"]], decls: 2, vars: 0, template: function ReflectionComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "reflection works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJyZWZsZWN0aW9uLmNvbXBvbmVudC5jc3MifQ== */"] });
+
+
+/***/ }),
+
+/***/ "G8SU":
+/*!******************************************!*\
+  !*** ./src/app/maven/maven.component.ts ***!
+  \******************************************/
+/*! exports provided: MavenComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MavenComponent", function() { return MavenComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class MavenComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+MavenComponent.ɵfac = function MavenComponent_Factory(t) { return new (t || MavenComponent)(); };
+MavenComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MavenComponent, selectors: [["app-maven"]], decls: 2, vars: 0, template: function MavenComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "maven works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJtYXZlbi5jb21wb25lbnQuY3NzIn0= */"] });
 
 
 /***/ }),
@@ -288,6 +450,87 @@ WelcomeComponent.ɵfac = function WelcomeComponent_Factory(t) { return new (t ||
 WelcomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WelcomeComponent, selectors: [["app-welcome"]], decls: 1, vars: 0, template: function WelcomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](0, "Welcome! ");
     } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ3ZWxjb21lLmNvbXBvbmVudC5jc3MifQ== */"] });
+
+
+/***/ }),
+
+/***/ "J85y":
+/*!******************************************************!*\
+  !*** ./src/app/springcloud/springcloud.component.ts ***!
+  \******************************************************/
+/*! exports provided: SpringcloudComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SpringcloudComponent", function() { return SpringcloudComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class SpringcloudComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+SpringcloudComponent.ɵfac = function SpringcloudComponent_Factory(t) { return new (t || SpringcloudComponent)(); };
+SpringcloudComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SpringcloudComponent, selectors: [["app-springcloud"]], decls: 2, vars: 0, template: function SpringcloudComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "springcloud works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcHJpbmdjbG91ZC5jb21wb25lbnQuY3NzIn0= */"] });
+
+
+/***/ }),
+
+/***/ "LJL2":
+/*!****************************************************!*\
+  !*** ./src/app/algorithms/algorithms.component.ts ***!
+  \****************************************************/
+/*! exports provided: AlgorithmsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AlgorithmsComponent", function() { return AlgorithmsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class AlgorithmsComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+AlgorithmsComponent.ɵfac = function AlgorithmsComponent_Factory(t) { return new (t || AlgorithmsComponent)(); };
+AlgorithmsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AlgorithmsComponent, selectors: [["app-algorithms"]], decls: 2, vars: 0, template: function AlgorithmsComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "algorithms works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhbGdvcml0aG1zLmNvbXBvbmVudC5jc3MifQ== */"] });
+
+
+/***/ }),
+
+/***/ "LY9B":
+/*!******************************************!*\
+  !*** ./src/app/regex/regex.component.ts ***!
+  \******************************************/
+/*! exports provided: RegexComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "RegexComponent", function() { return RegexComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class RegexComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+RegexComponent.ɵfac = function RegexComponent_Factory(t) { return new (t || RegexComponent)(); };
+RegexComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: RegexComponent, selectors: [["app-regex"]], decls: 2, vars: 0, template: function RegexComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "regex works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJyZWdleC5jb21wb25lbnQuY3NzIn0= */"] });
 
 
 /***/ }),
@@ -395,6 +638,60 @@ SolidComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "    Single Responsibility Principle\na class should only have one responsibility. Furthermore, it should only have one reason to change\nTesting, Lower coupling, Organization\nOpen closed Principle\nOpen for Extension, Closed for Modification\nclasses should be open for extension but closed for modification. In doing so, we stop ourselves from modifying existing code and causing potential new bugs\nLiskov Substitution Principle\nif class A is a subtype of class B, we should be able to replace B with A without disrupting the behavior of our program.\nInterface segregation Principle\nlarger interfaces should be split into smaller ones. By doing so, we can ensure that implementing classes only need to be concerned about the methods that are of interest to them.\nDependency Injection\nThe principle of dependency inversion refers to the decoupling of software modules. This way, instead of high-level modules depending on low-level modules, both will depend on abstractions.\n\nDRY \u2013 Don\u2019t repeat yourself\n\n");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzb2xpZC5jb21wb25lbnQuY3NzIn0= */"] });
+
+
+/***/ }),
+
+/***/ "Mawo":
+/*!****************************************!*\
+  !*** ./src/app/jdbc/jdbc.component.ts ***!
+  \****************************************/
+/*! exports provided: JdbcComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JdbcComponent", function() { return JdbcComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class JdbcComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+JdbcComponent.ɵfac = function JdbcComponent_Factory(t) { return new (t || JdbcComponent)(); };
+JdbcComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: JdbcComponent, selectors: [["app-jdbc"]], decls: 2, vars: 0, template: function JdbcComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "jdbc works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJqZGJjLmNvbXBvbmVudC5jc3MifQ== */"] });
+
+
+/***/ }),
+
+/***/ "Mhbz":
+/*!******************************************************************!*\
+  !*** ./src/app/exceptionhandling/exceptionhandling.component.ts ***!
+  \******************************************************************/
+/*! exports provided: ExceptionhandlingComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ExceptionhandlingComponent", function() { return ExceptionhandlingComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class ExceptionhandlingComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+ExceptionhandlingComponent.ɵfac = function ExceptionhandlingComponent_Factory(t) { return new (t || ExceptionhandlingComponent)(); };
+ExceptionhandlingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ExceptionhandlingComponent, selectors: [["app-exceptionhandling"]], decls: 2, vars: 0, template: function ExceptionhandlingComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "exceptionhandling works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJleGNlcHRpb25oYW5kbGluZy5jb21wb25lbnQuY3NzIn0= */"] });
 
 
 /***/ }),
@@ -511,6 +808,33 @@ CssComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
 
 /***/ }),
 
+/***/ "PstS":
+/*!**********************************************!*\
+  !*** ./src/app/dockers/dockers.component.ts ***!
+  \**********************************************/
+/*! exports provided: DockersComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DockersComponent", function() { return DockersComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class DockersComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+DockersComponent.ɵfac = function DockersComponent_Factory(t) { return new (t || DockersComponent)(); };
+DockersComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DockersComponent, selectors: [["app-dockers"]], decls: 2, vars: 0, template: function DockersComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "dockers works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJkb2NrZXJzLmNvbXBvbmVudC5jc3MifQ== */"] });
+
+
+/***/ }),
+
 /***/ "QCp3":
 /*!****************************************!*\
   !*** ./src/app/java/java.component.ts ***!
@@ -528,13 +852,21 @@ __webpack_require__.r(__webpack_exports__);
 const _c0 = function () { return ["designpatterns"]; };
 const _c1 = function () { return ["multithreading"]; };
 const _c2 = function () { return ["javaio"]; };
+const _c3 = function () { return ["oops"]; };
+const _c4 = function () { return ["collections"]; };
+const _c5 = function () { return ["exceptionhandling"]; };
+const _c6 = function () { return ["servlets"]; };
+const _c7 = function () { return ["reflection"]; };
+const _c8 = function () { return ["regex"]; };
+const _c9 = function () { return ["generics"]; };
+const _c10 = function () { return ["serialization"]; };
 class JavaComponent {
     constructor() { }
     ngOnInit() {
     }
 }
 JavaComponent.ɵfac = function JavaComponent_Factory(t) { return new (t || JavaComponent)(); };
-JavaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: JavaComponent, selectors: [["app-java"]], decls: 19, vars: 6, consts: [[1, "row"], [1, "col-md-2"], [3, "routerLink"], [1, "col-md-6", 2, "border", "solid 2px"], [1, "col-md-4"]], template: function JavaComponent_Template(rf, ctx) { if (rf & 1) {
+JavaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: JavaComponent, selectors: [["app-java"]], decls: 43, vars: 22, consts: [[1, "row"], [1, "col-md-2"], [3, "routerLink"], [1, "col-md-6", 2, "border", "solid 2px"], [1, "col-md-4"]], template: function JavaComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "ul");
@@ -553,27 +885,83 @@ JavaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Java IO");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "a", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "OOPS");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Collections");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, " Interview Questions ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "pre");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "       Implementing Iterator class to accept arrays,\n        collections and maps\n   ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "a", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Exception Handling");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "a", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Servlets");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "a", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Reflection");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "a", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "RegularExpressions");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "a", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Generics");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "a", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Serialization");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, " Interview Questions ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "pre");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "       Implementing Iterator class to accept arrays,\n        collections and maps\n   ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](3, _c0));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](11, _c0));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](4, _c1));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](12, _c1));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](5, _c2));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](13, _c2));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](14, _c3));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](15, _c4));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](16, _c5));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](17, _c6));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](18, _c7));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](19, _c8));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](20, _c9));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](21, _c10));
     } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterOutlet"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJqYXZhLmNvbXBvbmVudC5jc3MifQ== */"] });
 
 
@@ -654,9 +1042,9 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 153, vars: 2, consts: [[2, "background-color", "blueviolet"], [1, "navbar", "navbar-expand", "navbar-light", "bg-light"], [1, "nav", "nav-pills"], [1, "nav-link", 3, "routerLink"], ["routerLink", "/bootstrap", 1, "nav-link"], ["routerLink", "/collections", 1, "nav-link"], ["routerLink", "/angular", 1, "nav-link"], ["routerLink", "/html5", 1, "nav-link"], ["routerLink", "/javascript", 1, "nav-link"], ["routerLink", "/css", 1, "nav-link"], ["routerLink", "/microservices", 1, "nav-link"], ["routerLink", "/javalogging", 1, "nav-link"], ["routerLink", "/aws", 1, "nav-link"], ["routerLink", "/gitlab", 1, "nav-link"], ["routerLink", "/veracode", 1, "nav-link"], ["routerLink", "/sonarqube", 1, "nav-link"], ["routerLink", "/apitesting", 1, "nav-link"], ["routerLink", "/solid", 1, "nav-link"], ["routerLink", "/codereview", 1, "nav-link"], ["routerLink", "designpatterns", 1, "nav-link"], ["routerLink", "/rest", 1, "nav-link"], ["routerLink", "/json", 1, "nav-link"], ["routerLink", "/testing", 1, "nav-link"], ["routerLink", "/springboot", 1, "nav-link"], ["routerLink", "/kafka", 1, "nav-link"], ["routerLink", "/security", 1, "nav-link"], ["routerLink", "/interview", 1, "nav-link"], [2, "background-color", "lightsteelblue"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 127, vars: 2, consts: [[1, "row"], [1, "navbar", "navbar-expand", "navbar-light", "fixed-top", "bg-dark"], [1, "nav", "nav-pills"], [1, "nav-link", "bg-dark", 3, "routerLink"], ["routerLink", "/algorithms", 1, "nav-link"], ["routerLink", "/jdbc", 1, "nav-link"], ["routerLink", "/jvm", 1, "nav-link"], ["routerLink", "/javaxml", 1, "nav-link"], ["routerLink", "/angular", 1, "nav-link"], ["routerLink", "/html5", 1, "nav-link"], ["routerLink", "/javascript", 1, "nav-link"], ["routerLink", "/css", 1, "nav-link"], ["routerLink", "/bootstrap", 1, "nav-link"], ["routerLink", "/microservices", 1, "nav-link"], ["routerLink", "/javalogging", 1, "nav-link"], ["routerLink", "/aws", 1, "nav-link"], ["routerLink", "/gitlab", 1, "nav-link"], ["routerLink", "/veracode", 1, "nav-link"], ["routerLink", "/sonarqube", 1, "nav-link"], ["routerLink", "/apitesting", 1, "nav-link"], ["routerLink", "/solid", 1, "nav-link"], ["routerLink", "/codereview", 1, "nav-link"], ["routerLink", "/rest", 1, "nav-link"], ["routerLink", "/json", 1, "nav-link"], ["routerLink", "/testing", 1, "nav-link"], ["routerLink", "/springboot", 1, "nav-link"], ["routerLink", "/kafka", 1, "nav-link"], ["routerLink", "/security", 1, "nav-link"], ["routerLink", "/springcore", 1, "nav-link"], ["routerLink", "/springdata", 1, "nav-link"], ["routerLink", "/springmvc", 1, "nav-link"], ["routerLink", "/springaop", 1, "nav-link"], ["routerLink", "/springintegration", 1, "nav-link"], ["routerLink", "/springtesting", 1, "nav-link"], ["routerLink", "/springjpa", 1, "nav-link"], ["routerLink", "/springcloud", 1, "nav-link"], ["routerLink", "/springsecurity", 1, "nav-link"], ["routerLink", "/hibernate", 1, "nav-link"], ["routerLink", "/sql", 1, "nav-link"], ["routerLink", "/unittesting", 1, "nav-link"], ["routerLink", "/maven", 1, "nav-link"], ["routerLink", "/dockers", 1, "nav-link"], ["routerLink", "/interview", 1, "nav-link"], ["role", "main"], [2, "background-color", "lightsteelblue", "padding-top", "15%", "scroll-behavior", "auto"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "header", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "nav", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "ul", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "li");
@@ -666,255 +1054,239 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "OOPS");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Algorithms");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "Collections");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "JDBC");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Algorithms");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "JVM");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Exception Handling");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "a", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Java XML");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "JDBC");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Angular");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Servlets");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "HTML5");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Reflection");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Javascript");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "RegularExpressions");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "CSS");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Generics");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Bootstrap");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "JVM");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "a", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Microservices");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "Serialization");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "a", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "Java Logging");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "Java XML");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "a", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "AWS");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "a", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "Angular");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "a", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "GitLab");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "HTML5");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "a", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "Veracode");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "Javascript");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "a", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "sonarqube");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "CSS");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "a", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "Api Testing");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "Bootstrap");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "a", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "SOLID");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "a", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "Microservices");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "a", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "Code Review");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "a", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "Java Logging");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "a", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "REST");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "a", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "AWS");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "a", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "JSON");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "a", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "GitLab");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "a", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "Testing");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "a", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, "Veracode");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "a", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, "Spring Boot");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "a", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "sonarqube");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "a", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "Kafka");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "a", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, "Api Testing");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "a", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, "Security");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "a", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](81, "SOLID");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "a", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](81, "Spring Core");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "a", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, "Code Review");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "a", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, "Spring Data");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "a", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](87, "Design Patterns");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "a", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](87, "Spring MVC");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "a", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, "REST");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "a", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, "Spring AOP");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "a", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, "JSON");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "a", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, "Spring Integration");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "a", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, "Testing");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](95, "a", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, "Spring Testing");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "a", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](99, "Spring Boot");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "a", 34);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](99, "Spring JPA");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "a", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](102, "Kafka");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "a", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](102, "Spring Cloud");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](103, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "a", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, "Security");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "a", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, "Spring Security");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](108, "Spring Core");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](107, "a", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](108, "Hibernate");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](109, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](111, "Spring Data");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "a", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](111, "SQL");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](114, "Spring MVC");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](113, "a", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](114, "Unit Testing");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](117, "Spring AOP");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "a", 40);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](117, "Maven");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](120, "Spring Integration");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](119, "a", 41);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](120, "Dockers");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](123, "Spring Testing");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](126, "Spring JPA");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](127, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](129, "Spring Cloud");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](130, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](131, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](132, "Spring Security");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](134, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](135, "Hibernate");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](136, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](137, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](138, "SQL");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](139, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](140, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](141, "Unit Testing");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](142, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](144, "Maven");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](145, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](146, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](147, "Dockers");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](148, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](149, "a", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](150, "Interview");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "a", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](123, "Interview");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](152, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](124, "main", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "div", 44);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](126, "router-outlet");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](1, _c0));
     } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterOutlet"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY29tcG9uZW50LmNzcyJ9 */"] });
+
+
+/***/ }),
+
+/***/ "V0l6":
+/*!**********************************************************!*\
+  !*** ./src/app/serialization/serialization.component.ts ***!
+  \**********************************************************/
+/*! exports provided: SerializationComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SerializationComponent", function() { return SerializationComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class SerializationComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+SerializationComponent.ɵfac = function SerializationComponent_Factory(t) { return new (t || SerializationComponent)(); };
+SerializationComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SerializationComponent, selectors: [["app-serialization"]], decls: 2, vars: 0, template: function SerializationComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "serialization works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzZXJpYWxpemF0aW9uLmNvbXBvbmVudC5jc3MifQ== */"] });
 
 
 /***/ }),
@@ -942,6 +1314,60 @@ VeracodeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "    Veracode is a cloud based solution for application security\nStatic analysis, compiled byte code (SAST \u2013 Satic Application security testing)\nDynamic analysis (DAST )\nIntercative Analysis (IAST)\nSoftware composition Analysis (SCA) and penetration testing\n\n");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ2ZXJhY29kZS5jb21wb25lbnQuY3NzIn0= */"] });
+
+
+/***/ }),
+
+/***/ "XJco":
+/*!**************************************!*\
+  !*** ./src/app/jvm/jvm.component.ts ***!
+  \**************************************/
+/*! exports provided: JvmComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JvmComponent", function() { return JvmComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class JvmComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+JvmComponent.ɵfac = function JvmComponent_Factory(t) { return new (t || JvmComponent)(); };
+JvmComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: JvmComponent, selectors: [["app-jvm"]], decls: 2, vars: 0, template: function JvmComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "jvm works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJqdm0uY29tcG9uZW50LmNzcyJ9 */"] });
+
+
+/***/ }),
+
+/***/ "XyHN":
+/*!****************************************************!*\
+  !*** ./src/app/springdata/springdata.component.ts ***!
+  \****************************************************/
+/*! exports provided: SpringdataComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SpringdataComponent", function() { return SpringdataComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class SpringdataComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+SpringdataComponent.ɵfac = function SpringdataComponent_Factory(t) { return new (t || SpringdataComponent)(); };
+SpringdataComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SpringdataComponent, selectors: [["app-springdata"]], decls: 2, vars: 0, template: function SpringdataComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "springdata works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcHJpbmdkYXRhLmNvbXBvbmVudC5jc3MifQ== */"] });
 
 
 /***/ }),
@@ -986,7 +1412,57 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _javaio_javaio_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./javaio/javaio.component */ "l0px");
 /* harmony import */ var _interview_interview_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./interview/interview.component */ "0o0m");
 /* harmony import */ var _collections_collections_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./collections/collections.component */ "GRpk");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _oops_oops_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./oops/oops.component */ "qLCa");
+/* harmony import */ var _exceptionhandling_exceptionhandling_component__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./exceptionhandling/exceptionhandling.component */ "Mhbz");
+/* harmony import */ var _servlets_servlets_component__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./servlets/servlets.component */ "nUJg");
+/* harmony import */ var _reflection_reflection_component__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./reflection/reflection.component */ "Fgd+");
+/* harmony import */ var _regex_regex_component__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./regex/regex.component */ "LY9B");
+/* harmony import */ var _generics_generics_component__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./generics/generics.component */ "bPYc");
+/* harmony import */ var _algorithms_algorithms_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./algorithms/algorithms.component */ "LJL2");
+/* harmony import */ var _jdbc_jdbc_component__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./jdbc/jdbc.component */ "Mawo");
+/* harmony import */ var _jvm_jvm_component__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./jvm/jvm.component */ "XJco");
+/* harmony import */ var _serialization_serialization_component__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./serialization/serialization.component */ "V0l6");
+/* harmony import */ var _javaxml_javaxml_component__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./javaxml/javaxml.component */ "ybjD");
+/* harmony import */ var _springcore_springcore_component__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./springcore/springcore.component */ "ybSk");
+/* harmony import */ var _springdata_springdata_component__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./springdata/springdata.component */ "XyHN");
+/* harmony import */ var _springmvc_springmvc_component__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./springmvc/springmvc.component */ "pm8X");
+/* harmony import */ var _springaop_springaop_component__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./springaop/springaop.component */ "iFNt");
+/* harmony import */ var _springintegration_springintegration_component__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./springintegration/springintegration.component */ "nydY");
+/* harmony import */ var _springtesting_springtesting_component__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./springtesting/springtesting.component */ "q8XH");
+/* harmony import */ var _springjpa_springjpa_component__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./springjpa/springjpa.component */ "D84f");
+/* harmony import */ var _springcloud_springcloud_component__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./springcloud/springcloud.component */ "J85y");
+/* harmony import */ var _springsecurity_springsecurity_component__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./springsecurity/springsecurity.component */ "BiH+");
+/* harmony import */ var _hibernate_hibernate_component__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ./hibernate/hibernate.component */ "2/Wp");
+/* harmony import */ var _sql_sql_component__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ./sql/sql.component */ "geC+");
+/* harmony import */ var _unittesting_unittesting_component__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ./unittesting/unittesting.component */ "AxRl");
+/* harmony import */ var _maven_maven_component__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ./maven/maven.component */ "G8SU");
+/* harmony import */ var _dockers_dockers_component__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ./dockers/dockers.component */ "PstS");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1022,8 +1498,8 @@ __webpack_require__.r(__webpack_exports__);
 class AppModule {
 }
 AppModule.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(); };
-AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_30__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_1__["AppComponent"]] });
-AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_30__["ɵɵdefineInjector"]({ providers: [], imports: [[
+AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_55__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_1__["AppComponent"]] });
+AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_55__["ɵɵdefineInjector"]({ providers: [], imports: [[
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
             _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"].forRoot([
                 { path: 'java',
@@ -1031,16 +1507,41 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_30__["ɵɵdefineInjecto
                     children: [
                         { path: 'designpatterns', component: _designpatterns_designpatterns_component__WEBPACK_IMPORTED_MODULE_14__["DesignpatternsComponent"] },
                         { path: 'multithreading', component: _multithreading_multithreading_component__WEBPACK_IMPORTED_MODULE_21__["MultithreadingComponent"] },
-                        { path: 'javaio', component: _javaio_javaio_component__WEBPACK_IMPORTED_MODULE_27__["JavaioComponent"] }
+                        { path: 'javaio', component: _javaio_javaio_component__WEBPACK_IMPORTED_MODULE_27__["JavaioComponent"] },
+                        { path: 'oops', component: _oops_oops_component__WEBPACK_IMPORTED_MODULE_30__["OopsComponent"] },
+                        { path: 'collections', component: _collections_collections_component__WEBPACK_IMPORTED_MODULE_29__["CollectionsComponent"] },
+                        { path: 'exceptionhandling', component: _exceptionhandling_exceptionhandling_component__WEBPACK_IMPORTED_MODULE_31__["ExceptionhandlingComponent"] },
+                        { path: 'servlets', component: _servlets_servlets_component__WEBPACK_IMPORTED_MODULE_32__["ServletsComponent"] },
+                        { path: 'reflection', component: _reflection_reflection_component__WEBPACK_IMPORTED_MODULE_33__["ReflectionComponent"] },
+                        { path: 'regex', component: _regex_regex_component__WEBPACK_IMPORTED_MODULE_34__["RegexComponent"] },
+                        { path: 'generics', component: _generics_generics_component__WEBPACK_IMPORTED_MODULE_35__["GenericsComponent"] },
+                        { path: 'serialization', component: _serialization_serialization_component__WEBPACK_IMPORTED_MODULE_39__["SerializationComponent"] },
                     ]
                 },
+                { path: 'jvm', component: _jvm_jvm_component__WEBPACK_IMPORTED_MODULE_38__["JvmComponent"] },
+                { path: 'javaxml', component: _javaxml_javaxml_component__WEBPACK_IMPORTED_MODULE_40__["JavaxmlComponent"] },
                 { path: 'microservices', component: _microservices_microservices_component__WEBPACK_IMPORTED_MODULE_3__["MicroservicesComponent"] },
+                { path: 'springcore', component: _springcore_springcore_component__WEBPACK_IMPORTED_MODULE_41__["SpringcoreComponent"] },
+                { path: 'springdata', component: _springdata_springdata_component__WEBPACK_IMPORTED_MODULE_42__["SpringdataComponent"] },
+                { path: 'springmvc', component: _springmvc_springmvc_component__WEBPACK_IMPORTED_MODULE_43__["SpringmvcComponent"] },
+                { path: 'springaop', component: _springaop_springaop_component__WEBPACK_IMPORTED_MODULE_44__["SpringaopComponent"] },
+                { path: 'springintegration', component: _springintegration_springintegration_component__WEBPACK_IMPORTED_MODULE_45__["SpringintegrationComponent"] },
+                { path: 'springtesting', component: _springtesting_springtesting_component__WEBPACK_IMPORTED_MODULE_46__["SpringtestingComponent"] },
+                { path: 'springjpa', component: _springjpa_springjpa_component__WEBPACK_IMPORTED_MODULE_47__["SpringjpaComponent"] },
+                { path: 'springsecurity', component: _springsecurity_springsecurity_component__WEBPACK_IMPORTED_MODULE_49__["SpringsecurityComponent"] },
+                { path: 'springcloud', component: _springcloud_springcloud_component__WEBPACK_IMPORTED_MODULE_48__["SpringcloudComponent"] },
+                { path: 'algorithms', component: _algorithms_algorithms_component__WEBPACK_IMPORTED_MODULE_36__["AlgorithmsComponent"] },
+                { path: 'unittesting', component: _unittesting_unittesting_component__WEBPACK_IMPORTED_MODULE_52__["UnittestingComponent"] },
+                { path: 'sql', component: _sql_sql_component__WEBPACK_IMPORTED_MODULE_51__["SqlComponent"] },
+                { path: 'jdbc', component: _jdbc_jdbc_component__WEBPACK_IMPORTED_MODULE_37__["JdbcComponent"] },
+                { path: 'hibernate', component: _hibernate_hibernate_component__WEBPACK_IMPORTED_MODULE_50__["HibernateComponent"] },
                 { path: 'javalogging', component: _javalogging_javalogging_component__WEBPACK_IMPORTED_MODULE_6__["JavaloggingComponent"] },
                 { path: 'aws', component: _aws_aws_component__WEBPACK_IMPORTED_MODULE_7__["AwsComponent"] },
                 { path: 'gitlab', component: _gitlab_gitlab_component__WEBPACK_IMPORTED_MODULE_8__["GitlabComponent"] },
                 { path: 'veracode', component: _veracode_veracode_component__WEBPACK_IMPORTED_MODULE_9__["VeracodeComponent"] },
                 { path: 'sonarqube', component: _sonarqube_sonarqube_component__WEBPACK_IMPORTED_MODULE_10__["SonarqubeComponent"] },
                 { path: 'apitesting', component: _apitesting_apitesting_component__WEBPACK_IMPORTED_MODULE_11__["ApitestingComponent"] },
+                { path: 'designpatterns', component: _designpatterns_designpatterns_component__WEBPACK_IMPORTED_MODULE_14__["DesignpatternsComponent"] },
                 { path: 'solid', component: _solid_solid_component__WEBPACK_IMPORTED_MODULE_12__["SolidComponent"] },
                 { path: 'codereview', component: _codereview_codereview_component__WEBPACK_IMPORTED_MODULE_13__["CodereviewComponent"] },
                 { path: 'multithreading', component: _multithreading_multithreading_component__WEBPACK_IMPORTED_MODULE_21__["MultithreadingComponent"] },
@@ -1051,15 +1552,17 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_30__["ɵɵdefineInjecto
                 { path: 'kafka', component: _kafka_kafka_component__WEBPACK_IMPORTED_MODULE_19__["KafkaComponent"] },
                 { path: 'security', component: _security_security_component__WEBPACK_IMPORTED_MODULE_20__["SecurityComponent"] },
                 { path: 'angular', component: _angular_angular_component__WEBPACK_IMPORTED_MODULE_22__["AngularComponent"] },
+                { path: 'maven', component: _maven_maven_component__WEBPACK_IMPORTED_MODULE_53__["MavenComponent"] },
+                { path: 'dockers', component: _dockers_dockers_component__WEBPACK_IMPORTED_MODULE_54__["DockersComponent"] },
+                { path: 'interview', component: _interview_interview_component__WEBPACK_IMPORTED_MODULE_28__["InterviewComponent"] },
                 { path: 'html5', component: _html5_html5_component__WEBPACK_IMPORTED_MODULE_23__["Html5Component"] },
                 { path: 'javascript', component: _javascript_javascript_component__WEBPACK_IMPORTED_MODULE_24__["JavascriptComponent"] },
                 { path: 'css', component: _css_css_component__WEBPACK_IMPORTED_MODULE_25__["CssComponent"] },
                 { path: 'bootstrap', component: _bootstrap_bootstrap_component__WEBPACK_IMPORTED_MODULE_26__["BootstrapComponent"] },
-                { path: 'collections', component: _collections_collections_component__WEBPACK_IMPORTED_MODULE_29__["CollectionsComponent"] },
                 { path: '', component: _welcome_welcome_component__WEBPACK_IMPORTED_MODULE_5__["WelcomeComponent"] }
             ])
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_30__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__["AppComponent"],
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_55__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__["AppComponent"],
         _java_java_component__WEBPACK_IMPORTED_MODULE_2__["JavaComponent"],
         _microservices_microservices_component__WEBPACK_IMPORTED_MODULE_3__["MicroservicesComponent"],
         _welcome_welcome_component__WEBPACK_IMPORTED_MODULE_5__["WelcomeComponent"],
@@ -1085,7 +1588,86 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_30__["ɵɵdefineInjecto
         _bootstrap_bootstrap_component__WEBPACK_IMPORTED_MODULE_26__["BootstrapComponent"],
         _javaio_javaio_component__WEBPACK_IMPORTED_MODULE_27__["JavaioComponent"],
         _interview_interview_component__WEBPACK_IMPORTED_MODULE_28__["InterviewComponent"],
-        _collections_collections_component__WEBPACK_IMPORTED_MODULE_29__["CollectionsComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"]] }); })();
+        _collections_collections_component__WEBPACK_IMPORTED_MODULE_29__["CollectionsComponent"],
+        _oops_oops_component__WEBPACK_IMPORTED_MODULE_30__["OopsComponent"],
+        _exceptionhandling_exceptionhandling_component__WEBPACK_IMPORTED_MODULE_31__["ExceptionhandlingComponent"],
+        _servlets_servlets_component__WEBPACK_IMPORTED_MODULE_32__["ServletsComponent"],
+        _reflection_reflection_component__WEBPACK_IMPORTED_MODULE_33__["ReflectionComponent"],
+        _regex_regex_component__WEBPACK_IMPORTED_MODULE_34__["RegexComponent"],
+        _generics_generics_component__WEBPACK_IMPORTED_MODULE_35__["GenericsComponent"],
+        _algorithms_algorithms_component__WEBPACK_IMPORTED_MODULE_36__["AlgorithmsComponent"],
+        _jdbc_jdbc_component__WEBPACK_IMPORTED_MODULE_37__["JdbcComponent"],
+        _jvm_jvm_component__WEBPACK_IMPORTED_MODULE_38__["JvmComponent"],
+        _serialization_serialization_component__WEBPACK_IMPORTED_MODULE_39__["SerializationComponent"],
+        _javaxml_javaxml_component__WEBPACK_IMPORTED_MODULE_40__["JavaxmlComponent"],
+        _springcore_springcore_component__WEBPACK_IMPORTED_MODULE_41__["SpringcoreComponent"],
+        _springdata_springdata_component__WEBPACK_IMPORTED_MODULE_42__["SpringdataComponent"],
+        _springmvc_springmvc_component__WEBPACK_IMPORTED_MODULE_43__["SpringmvcComponent"],
+        _springaop_springaop_component__WEBPACK_IMPORTED_MODULE_44__["SpringaopComponent"],
+        _springintegration_springintegration_component__WEBPACK_IMPORTED_MODULE_45__["SpringintegrationComponent"],
+        _springtesting_springtesting_component__WEBPACK_IMPORTED_MODULE_46__["SpringtestingComponent"],
+        _springjpa_springjpa_component__WEBPACK_IMPORTED_MODULE_47__["SpringjpaComponent"],
+        _springcloud_springcloud_component__WEBPACK_IMPORTED_MODULE_48__["SpringcloudComponent"],
+        _springsecurity_springsecurity_component__WEBPACK_IMPORTED_MODULE_49__["SpringsecurityComponent"],
+        _hibernate_hibernate_component__WEBPACK_IMPORTED_MODULE_50__["HibernateComponent"],
+        _sql_sql_component__WEBPACK_IMPORTED_MODULE_51__["SqlComponent"],
+        _unittesting_unittesting_component__WEBPACK_IMPORTED_MODULE_52__["UnittestingComponent"],
+        _maven_maven_component__WEBPACK_IMPORTED_MODULE_53__["MavenComponent"],
+        _dockers_dockers_component__WEBPACK_IMPORTED_MODULE_54__["DockersComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterModule"]] }); })();
+
+
+/***/ }),
+
+/***/ "bPYc":
+/*!************************************************!*\
+  !*** ./src/app/generics/generics.component.ts ***!
+  \************************************************/
+/*! exports provided: GenericsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GenericsComponent", function() { return GenericsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class GenericsComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+GenericsComponent.ɵfac = function GenericsComponent_Factory(t) { return new (t || GenericsComponent)(); };
+GenericsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: GenericsComponent, selectors: [["app-generics"]], decls: 2, vars: 0, template: function GenericsComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "generics works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJnZW5lcmljcy5jb21wb25lbnQuY3NzIn0= */"] });
+
+
+/***/ }),
+
+/***/ "geC+":
+/*!**************************************!*\
+  !*** ./src/app/sql/sql.component.ts ***!
+  \**************************************/
+/*! exports provided: SqlComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SqlComponent", function() { return SqlComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class SqlComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+SqlComponent.ɵfac = function SqlComponent_Factory(t) { return new (t || SqlComponent)(); };
+SqlComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SqlComponent, selectors: [["app-sql"]], decls: 2, vars: 0, template: function SqlComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "sql works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcWwuY29tcG9uZW50LmNzcyJ9 */"] });
 
 
 /***/ }),
@@ -1113,6 +1695,33 @@ CodereviewComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "    SQL Injection\n\n    Use parameterized Queries \u2013 Use prepared statement\n    Use JPA Criteria API\n    User Data sanitization\n    -\tWhitelist \u2013 set of valid input checklist\n    -\tBlacklist \u2013 Not valid input checklist\n    Non Functional Requirements\n    \n    Scalability\n    Availability\n    Reliability.\n    Recoverability.\n    Maintainability.\n    Serviceability.\n    Capacity\n    \n");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJjb2RlcmV2aWV3LmNvbXBvbmVudC5jc3MifQ== */"] });
+
+
+/***/ }),
+
+/***/ "iFNt":
+/*!**************************************************!*\
+  !*** ./src/app/springaop/springaop.component.ts ***!
+  \**************************************************/
+/*! exports provided: SpringaopComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SpringaopComponent", function() { return SpringaopComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class SpringaopComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+SpringaopComponent.ɵfac = function SpringaopComponent_Factory(t) { return new (t || SpringaopComponent)(); };
+SpringaopComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SpringaopComponent, selectors: [["app-springaop"]], decls: 2, vars: 0, template: function SpringaopComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "springaop works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcHJpbmdhb3AuY29tcG9uZW50LmNzcyJ9 */"] });
 
 
 /***/ }),
@@ -1198,6 +1807,141 @@ JavaioComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "\n    \n    \n    \n    ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJqYXZhaW8uY29tcG9uZW50LmNzcyJ9 */"] });
+
+
+/***/ }),
+
+/***/ "nUJg":
+/*!************************************************!*\
+  !*** ./src/app/servlets/servlets.component.ts ***!
+  \************************************************/
+/*! exports provided: ServletsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ServletsComponent", function() { return ServletsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class ServletsComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+ServletsComponent.ɵfac = function ServletsComponent_Factory(t) { return new (t || ServletsComponent)(); };
+ServletsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ServletsComponent, selectors: [["app-servlets"]], decls: 2, vars: 0, template: function ServletsComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "servlets works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzZXJ2bGV0cy5jb21wb25lbnQuY3NzIn0= */"] });
+
+
+/***/ }),
+
+/***/ "nydY":
+/*!******************************************************************!*\
+  !*** ./src/app/springintegration/springintegration.component.ts ***!
+  \******************************************************************/
+/*! exports provided: SpringintegrationComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SpringintegrationComponent", function() { return SpringintegrationComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class SpringintegrationComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+SpringintegrationComponent.ɵfac = function SpringintegrationComponent_Factory(t) { return new (t || SpringintegrationComponent)(); };
+SpringintegrationComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SpringintegrationComponent, selectors: [["app-springintegration"]], decls: 2, vars: 0, template: function SpringintegrationComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "springintegration works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcHJpbmdpbnRlZ3JhdGlvbi5jb21wb25lbnQuY3NzIn0= */"] });
+
+
+/***/ }),
+
+/***/ "pm8X":
+/*!**************************************************!*\
+  !*** ./src/app/springmvc/springmvc.component.ts ***!
+  \**************************************************/
+/*! exports provided: SpringmvcComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SpringmvcComponent", function() { return SpringmvcComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class SpringmvcComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+SpringmvcComponent.ɵfac = function SpringmvcComponent_Factory(t) { return new (t || SpringmvcComponent)(); };
+SpringmvcComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SpringmvcComponent, selectors: [["app-springmvc"]], decls: 2, vars: 0, template: function SpringmvcComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "springmvc works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcHJpbmdtdmMuY29tcG9uZW50LmNzcyJ9 */"] });
+
+
+/***/ }),
+
+/***/ "q8XH":
+/*!**********************************************************!*\
+  !*** ./src/app/springtesting/springtesting.component.ts ***!
+  \**********************************************************/
+/*! exports provided: SpringtestingComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SpringtestingComponent", function() { return SpringtestingComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class SpringtestingComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+SpringtestingComponent.ɵfac = function SpringtestingComponent_Factory(t) { return new (t || SpringtestingComponent)(); };
+SpringtestingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SpringtestingComponent, selectors: [["app-springtesting"]], decls: 2, vars: 0, template: function SpringtestingComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "springtesting works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcHJpbmd0ZXN0aW5nLmNvbXBvbmVudC5jc3MifQ== */"] });
+
+
+/***/ }),
+
+/***/ "qLCa":
+/*!****************************************!*\
+  !*** ./src/app/oops/oops.component.ts ***!
+  \****************************************/
+/*! exports provided: OopsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OopsComponent", function() { return OopsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class OopsComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+OopsComponent.ɵfac = function OopsComponent_Factory(t) { return new (t || OopsComponent)(); };
+OopsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: OopsComponent, selectors: [["app-oops"]], decls: 2, vars: 0, template: function OopsComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "oops works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJvb3BzLmNvbXBvbmVudC5jc3MifQ== */"] });
 
 
 /***/ }),
@@ -1389,6 +2133,60 @@ TestingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, ">\n");
     } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ0ZXN0aW5nLmNvbXBvbmVudC5jc3MifQ== */"] });
+
+
+/***/ }),
+
+/***/ "ybSk":
+/*!****************************************************!*\
+  !*** ./src/app/springcore/springcore.component.ts ***!
+  \****************************************************/
+/*! exports provided: SpringcoreComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SpringcoreComponent", function() { return SpringcoreComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class SpringcoreComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+SpringcoreComponent.ɵfac = function SpringcoreComponent_Factory(t) { return new (t || SpringcoreComponent)(); };
+SpringcoreComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SpringcoreComponent, selectors: [["app-springcore"]], decls: 2, vars: 0, template: function SpringcoreComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "springcore works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcHJpbmdjb3JlLmNvbXBvbmVudC5jc3MifQ== */"] });
+
+
+/***/ }),
+
+/***/ "ybjD":
+/*!**********************************************!*\
+  !*** ./src/app/javaxml/javaxml.component.ts ***!
+  \**********************************************/
+/*! exports provided: JavaxmlComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "JavaxmlComponent", function() { return JavaxmlComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
+class JavaxmlComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+}
+JavaxmlComponent.ɵfac = function JavaxmlComponent_Factory(t) { return new (t || JavaxmlComponent)(); };
+JavaxmlComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: JavaxmlComponent, selectors: [["app-javaxml"]], decls: 2, vars: 0, template: function JavaxmlComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "javaxml works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJqYXZheG1sLmNvbXBvbmVudC5jc3MifQ== */"] });
 
 
 /***/ }),
