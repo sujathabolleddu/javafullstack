@@ -55,6 +55,7 @@ import { SqlComponent } from './sql/sql.component';
 import { UnittestingComponent } from './unittesting/unittesting.component';
 import { MavenComponent } from './maven/maven.component';
 import { DockersComponent } from './dockers/dockers.component';
+import { Java8Component } from './java8/java8.component';
 
 @NgModule({
   declarations: [
@@ -109,7 +110,8 @@ import { DockersComponent } from './dockers/dockers.component';
     SqlComponent,
     UnittestingComponent,
     MavenComponent,
-    DockersComponent
+    DockersComponent,
+    Java8Component
   ],
   imports: [
     BrowserModule,
@@ -128,6 +130,7 @@ import { DockersComponent } from './dockers/dockers.component';
         {path:'regex', component: RegexComponent},
         {path:'generics', component: GenericsComponent},
         {path:'serialization', component: SerializationComponent},
+        {path:'java8', component: Java8Component},
       ]
       
     },

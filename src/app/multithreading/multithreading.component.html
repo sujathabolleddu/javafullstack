@@ -1,9 +1,12 @@
-<pre>
-    Os contains processes
+<div>
+    
+Os contains processes
+<hr>
 Process contains Threads
 Each process can have only one thread running at a time
 
 Lifecycle of a Thread
+NEW, RUNNABLE, WAIT, BLOCKED, TERMINATED
 New, Runnable, Running(Non existent), Non Runnable(Block), Terminated
 Create a Thread Instance, Start a thread, Picked yp by thread schedular and running, (wait, sleep etc), once run method is executed
 
@@ -32,5 +35,46 @@ Executor service – contains Task Queue and Thread pool, returns a future objec
 Can take a runnable or callable object as input thread for execution
 
 Executors, when the fine tuning of result is not required
+<div>
+    Hello!
+</div>
 
-</pre>
+<div>
+    Thread is defined at operating system level. It is a set of instructions.An application is composed of several threads.
+    Different threads can be executed at the same time.
+
+    Hello
+</div>
+<div>
+    Same Time in single core CPU - Time sliced between multiple threads
+    On Multicore, things are happening at same time
+</div>
+<ul>
+   <h6> Who is responsible for CPU sharing? - Special element called thread scheduler
+    Scheduler pauses a thread for three reasons</h6>
+    <li>Resource equal sharing- priority</li>
+    <li>Thread is Waiting for data</li>
+    <li>Thread is waiting for another thread to do something(release a resource)</li>
+</ul>
+<div><h6>Race Condition</h6></div>
+<div>
+    Accessing data concurrently may lead to issues, two threads reading same variable, field, array.
+</div>
+<div>Two threads trying to read and write at same time</div>
+<div>Synchronized prevents the thread schedular to give a hand to another thread when a block is being executed by one thread</div>
+<div>Java machine uses a special object called a lock object that has a key to run the synchronized block</div>
+<div> Thread makes a request to lock object to give the key to enter synchronized block, it gives if available</div>
+<div>Every Java object can play the role of a lock object, key is defined internally in the object class</div>
+<div>Key is also called monitor</div>
+<div>A synchronized static method uses the class as a synchronization object(lock object)</div>
+<div>A synchronized non-static method uses the instance as a synchronization object</div>
+<div>We can use explicit object created to use for synchronization and synchronize block of code instead of method</div>
+<div> synchronized on method - implicit lock (class, instance), on block </div>
+<div>Reentrant locks - Locks are reentrant when a thread holds a lock , it can enter a clock synchronized on the lock it is holding</div>
+<div><h6>Deadlock</h6></div>
+<div>Deadlock is a situation where T1 holds a key required by T2 and T2 holds a key required by T1 and both wait for eachother to release</div>
+<div><h6>Runnable</h6></div>
+<div>Create an instance or Runnable</div>
+<div>Pass it to constructor of thread class</div>
+<div> call the start method on thread object</div>
+</div>
